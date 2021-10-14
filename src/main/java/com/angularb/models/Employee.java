@@ -30,4 +30,9 @@ public class Employee implements Serializable
     private String imageUrl;
     @Column(nullable = false, updatable=false)
     private String employeeCode;
+
+    public void setEmployeeCode(String toString)
+    {
+        
+    }
 }
