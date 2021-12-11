@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 @EnableSwagger2WebMvc
 public class Knife4jConfiguration
 {
-    @Bean(value = "SpringBoot-Vue-Demo-Api")
+    @Bean(value = "SpringBoot-Angular-Demo-Api")
     public Docket cloudMallApi()
     {
         return new Docket(DocumentationType.SWAGGER_2)

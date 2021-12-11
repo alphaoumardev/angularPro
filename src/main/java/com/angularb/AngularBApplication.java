@@ -11,8 +11,8 @@ import java.util.Arrays;
 import java.util.Collections;
 
 @SpringBootApplication
-public class AngularBApplication {
-
+public class AngularBApplication
+{
     public static void main(String[] args)
     {
         SpringApplication.run(AngularBApplication.class, args);
