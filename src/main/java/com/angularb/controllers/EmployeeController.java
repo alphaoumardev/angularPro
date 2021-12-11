@@ -9,6 +9,7 @@ package com.angularb.controllers;
 
 import com.angularb.models.Employee;
 import com.angularb.services.EmployeeService;
+import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,13 +20,11 @@ import java.util.List;
 
 @RestController
 @Slf4j
-//@RequiredArgsConstructor
+@AllArgsConstructor
 @RequestMapping("/employee")
 public class EmployeeController
 {
     private final EmployeeService employeeService;
-    @Autowired
-    public EmployeeController(EmployeeService employeeService) {this.employeeService = employeeService;}
 
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> findAllEmployees()

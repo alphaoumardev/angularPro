@@ -20,7 +20,7 @@ public class Knife4jConfiguration
                 .apiInfo(new ApiInfoBuilder()
                         .title("The api documentation")
                         .description("The documentation")
-                        .termsOfServiceUrl("https://github.com/alphaoumardev/alipay-vue")
+                        .termsOfServiceUrl("https://github.com/alphaoumardev/angularPro.git")
                         .version("1.0")
                         .build())
                 .groupName("2.0 version")
